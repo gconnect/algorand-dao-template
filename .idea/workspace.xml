@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5bded10-0936-415a-acdd-7163e2ad01c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/globalStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Configuration/Configuration.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ConfigureAsset/ConfigureAsset.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ConfigureAsset/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ConfigureOptin/ConfigureOptin.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ConfigureOptin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ConfigureVoting/ConfigureVoting.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ConfigureVoting/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dashboard/Account.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dashboard/Asset.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dashboard/Index.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Wallets/Wallets.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Wallets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/DashboardSidebar/DashboardSidebar.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/DashboardSidebar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Drawer/Drawer.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Drawer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Header/Header.styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Asset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Configuration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ExistingOrganization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Voting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Voting2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/connectWallet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/toggleDrawer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24A3n9bF3GaSGRffTtmRBiVaYdS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dashboard" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Dashboard" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/layout" />
+      <recent name="$PROJECT_DIR$/src/redux" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/ConfigureAsset" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v16.13.1/bin/node" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5bded10-0936-415a-acdd-7163e2ad01c3" name="Default Changelist" comment="" />
+      <created>1643059727861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643059727861</updated>
+      <workItem from="1643059735435" duration="6403000" />
+      <workItem from="1643102873407" duration="47525000" />
+      <workItem from="1643331576239" duration="3056000" />
+      <workItem from="1643371242752" duration="13421000" />
+      <workItem from="1643455588624" duration="11833000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="429" y="78" width="731" height="783" key="#start" timestamp="1643102987662">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state x="429" y="78" width="731" height="783" key="#start/0.32.1600.868@0.32.1600.868" timestamp="1643102987662" />
+    <state width="1548" height="108" key="GridCell.Tab.0.bottom" timestamp="1643422534058">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1548" height="108" key="GridCell.Tab.0.bottom/0.32.1600.868@0.32.1600.868" timestamp="1643422534058" />
+    <state width="1548" height="108" key="GridCell.Tab.0.center" timestamp="1643422534057">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1548" height="108" key="GridCell.Tab.0.center/0.32.1600.868@0.32.1600.868" timestamp="1643422534057" />
+    <state width="1548" height="108" key="GridCell.Tab.0.left" timestamp="1643422534057">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1548" height="108" key="GridCell.Tab.0.left/0.32.1600.868@0.32.1600.868" timestamp="1643422534057" />
+    <state width="1548" height="108" key="GridCell.Tab.0.right" timestamp="1643422534058">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="1548" height="108" key="GridCell.Tab.0.right/0.32.1600.868@0.32.1600.868" timestamp="1643422534058" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1643332744386">
+      <screen x="0" y="32" width="1600" height="868" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.32.1600.868@0.32.1600.868" timestamp="1643332744386" />
+  </component>
+</project>
