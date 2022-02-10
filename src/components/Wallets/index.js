@@ -6,7 +6,7 @@ import algosigner from '../../assets/img/algosigner.jpeg'
 import { Wrapper, Logo, Button } from './Wallets.styles'
 
 const Wallets = () => {
-  const [showAccount, setShowAccount]= useState(false)
+  // const [showAccount, setShowAccount]= useState(false)
   const userAccount = useRef()
 
   //Connect Algosigner
@@ -14,7 +14,7 @@ const Wallets = () => {
     let resp = await AlgoSigner.connect()
     console.log(resp)    
     getUserAccount()
-    setShowAccount(true)
+    // setShowAccount(true)
   }
 
   const getUserAccount = async () =>{
@@ -22,7 +22,7 @@ const Wallets = () => {
           ledger: 'TestNet'
         })
         if(userAccount.current[0]['address'] !== null){
-          setShowAccount(true)
+          // setShowAccount(true)
         }
   console.log(userAccount.current[0]['address'])
   // console.log(userAccount.current)
