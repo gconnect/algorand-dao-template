@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Input, Button, Spin, Slider, Alert } from 'antd'
 import { LoadingOutlined } from '@ant-design/icons'
-
+import { Link } from 'react-router-dom'
 import { Wrapper, Duration } from './ConfigureVoting.styles'
 
 const ConfigureAsset = () => {
@@ -63,9 +63,11 @@ const ConfigureAsset = () => {
         type="info"
         showIcon
       />
-      <Button onClick={createAsset} style={{ width: '100%', marginTop: '20px' }} type="primary">
-        { loading ? <Spin indicator={antIcon} /> : 'Launch Organization' }
-      </Button>
+      <Link to='/home'>
+        <Button onClick={createAsset} style={{ width: '100%', marginTop: '20px' }} type="primary">
+          { loading ? <Spin indicator={antIcon} /> : 'Launch Organization' }
+        </Button>
+      </Link>
     </Wrapper>
   )
 }

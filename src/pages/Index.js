@@ -1,9 +1,8 @@
 import { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
+import { useLocation, Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-
 import { Wrapper, Button } from '../components/Home/Home.styles'
-
+import ConfigureAsset from '../components/ConfigureAsset'
 const Home = () => {
   let location = useLocation()
 
@@ -22,14 +21,18 @@ const Home = () => {
         <div>
           <h1>Welcome to Algorand</h1>
           <p>Create your own organization in a few minutes!</p>
-          <Button>
-            <h2>Create an organization</h2>
-            <p>Start your organization with Algorand</p>
-          </Button>
-          <Button>
-            <h2>Existing organization</h2>
-            <p>Open an Existing Organization</p>
-          </Button>
+          <Link to='/Configuration'>
+            <Button>
+              <h2>Create an organization</h2>
+              <p>Start your organization with Algorand</p>
+            </Button>
+          </Link>
+          <Link to='/existing-organization'>
+            <Button>
+              <h2>Existing organization</h2>
+              <p>Open an Existing Organization</p>
+            </Button>
+          </Link>   
           <p style={{marginTop: '50px'}}>
             To learn more about Algorand visit <a href="https://algorand.com">Algorand homepage</a>
           </p>

@@ -18,7 +18,8 @@ export const Button = styled.div`
 export const Logo = styled.img`
   position: absolute;
   left: 30px;
-
+  height: 30px;
+  width: 30px;
   `
 
 
