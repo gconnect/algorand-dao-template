@@ -14,7 +14,7 @@ Here is the link to the figma mockup [design](https://www.figma.com/file/kL2a9LQ
 # Features of the Algorand DAO Template
 - Create new organization
 - Login to an existing organization
-- Configure Token ( Create Asset and Optin or add an existing asset)
+- Configure Token (Create Asset and Optin or add an existing asset)
 - Configure Voting
 - View Assets, Voting and Financial activities
 - Create Vote, Vote, and View Voting Status
@@ -39,7 +39,7 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ## LICENSE
-Distributed under the MIT License. See for more information. [LICENSE](https://github.com/gconnect/agorand-dao-template/blob/master/LICENSE)
+Distributed under the MIT License. See for more information. [LICENSE](https://github.com/gconnect/algorand-dao-template/blob/master/LICENSE)
 
 ## Blog and Video Tutorial
 Links to the blog post and demo video will be provided soon
