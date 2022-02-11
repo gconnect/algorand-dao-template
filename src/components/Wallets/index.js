@@ -1,5 +1,5 @@
 /*global AlgoSigner*/
-import { useState, useRef } from 'react'
+import { useRef } from 'react'
 import logo1 from '../../assets/img/myalgo.png'
 import logo2 from '../../assets/img/algo.png'
 import algosigner from '../../assets/img/algosigner.jpeg'

@@ -24,18 +24,14 @@ function App() {
   const { toggle } = useSelector(state => state.toggle)
   const { isConnect } = useSelector(state => state.connectWallet)
   const dispatch = useDispatch()
-  const appLinks = [
-    { link: '/explore-circles', title: 'Explore Circles' },
-    { link: '/enter-bazaar', title: 'Enter Bazaar' },
-    { link: '/engage-circles', title: 'Engage Circle' }
-  ]
+
 
   // const [loading, setLoading] = useState()
 
   return (
     <Router>
-      <AppHeader appLinks={appLinks}/>
-      <AppDrawer appLinks={appLinks} isToggle={toggle}/>
+      <AppHeader />
+      <AppDrawer isToggle={toggle}/>
       <label className="menu-icon" htmlFor="check">
         <input onClick={() => dispatch(toggleDrawer())} type="checkbox" id="check"/>
         <span className="Menu"></span>

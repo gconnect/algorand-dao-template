@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
-import { Header, Ul, Li, LogoImg, Links, Icons, Button } from './Header.styles'
+import { Header, LogoImg, Links, Icons, Button } from './Header.styles'
 import { connectBtnReducer } from '../../../redux/connectWallet'
 
 import logo from '../../../assets/img/logo.png'
 
-const AppHeader = ({ appLinks }) => {
+const AppHeader = () => {
   const dispatch = useDispatch()
 
   return (

@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react'
-import { Input, Button, Alert } from 'antd'
+import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 
 import Sidebar from '../components/layout/DashboardSidebar'
@@ -14,11 +13,11 @@ const Dashboard = () => {
 
   const location = useLocation()
 
-  const [address, setAddress] = useState('')
+  // const [address, setAddress] = useState('')
 
-  const handleAddress = e => {
-    setAddress(e.target.value)
-  }
+  // const handleAddress = e => {
+  //   setAddress(e.target.value)
+  // }
 
   useEffect(() => {
 

@@ -1,12 +1,10 @@
 import { useEffect } from 'react'
 import { useLocation, Link } from 'react-router-dom'
-import { useDispatch, useSelector } from 'react-redux'
 import { Wrapper, Button } from '../components/Home/Home.styles'
-import ConfigureAsset from '../components/ConfigureAsset'
+
 const Home = () => {
   let location = useLocation()
 
-  const dispatch = useDispatch()
 
 
 

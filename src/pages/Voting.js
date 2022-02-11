@@ -7,7 +7,7 @@ import {
 } from 'antd'
 
 import { Wrapper } from '../components/Dashboard/Index.styles'
-import { Content, Cards, Heading, Filterr } from '../components/Dashboard/Voting.styles'
+import { Content, Cards, Heading } from '../components/Dashboard/Voting.styles'
 import Sidebar from '../components/layout/DashboardSidebar'
 
 const { Option } = Select

@@ -1,6 +1,6 @@
-import { useState, useEffect, useContext } from 'react'
-import { message, Steps } from 'antd'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Steps } from 'antd'
+import { useLocation } from 'react-router-dom'
 
 import ConfigureAsset from '../components/ConfigureAsset'
 import ConfigureOptin from '../components/ConfigureOptin'
@@ -23,9 +23,6 @@ const Configuration = () => {
     setCurrent(current + 1)
   }
 
-  const prev = () => {
-    setCurrent(current - 1)
-  }
 
   useEffect(() => {
 

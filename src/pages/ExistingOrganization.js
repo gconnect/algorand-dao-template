@@ -8,6 +8,7 @@ const ExistingOrganization = () => {
   const location = useLocation()
 
   const [address, setAddress] = useState('')
+  console.log(address)
   const wrapper =  {
     width: '30%',
     margin: '150px auto',
