@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useState } from 'react'
+// import { useDispatch, useSelector } from 'react-redux'
 import { Input, Button, Spin } from 'antd'
 import { LoadingOutlined } from '@ant-design/icons'
 
@@ -8,13 +8,18 @@ import { Wrapper } from './ConfigureOptin.styles'
 const ConfigureAsset = ({ next }) => {
   const antIcon = <LoadingOutlined style={{ fontSize: 20, color: '#333' }} spin />
 
-  const dispatch = useDispatch()
+  // const dispatch = useDispatch()
 
   const [loading, setLoading] = useState(false)
   const [assetName, setAssetName] = useState('')
   const [unitName, setUnitName] = useState('')
   const [totalUnit, setTotalUnit] = useState('')
-  const [note, setNote] = useState('')
+  // const [note, setNote] = useState('')
+
+  console.log(unitName)
+  console.log(totalUnit)
+  console.log(assetName)
+
 
   const handleAssetName = e => {
     setAssetName(e.target.value)

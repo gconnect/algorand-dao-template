@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import { useState } from 'react'
+// import { useDispatch } from 'react-redux'
 import { Input, Button, Spin, Slider, Alert } from 'antd'
 import { LoadingOutlined } from '@ant-design/icons'
 import { Link } from 'react-router-dom'
@@ -8,7 +8,7 @@ import { Wrapper, Duration } from './ConfigureVoting.styles'
 const ConfigureAsset = () => {
   const antIcon = <LoadingOutlined style={{ fontSize: 20, color: '#333' }} spin />
 
-  const dispatch = useDispatch()
+  // const dispatch = useDispatch()
 
   const [loading, setLoading] = useState(false)
   const [support, setSupport] = useState(0)
@@ -16,6 +16,12 @@ const ConfigureAsset = () => {
   const [days, setDays] = useState(0)
   const [hours, setHours] = useState(0)
   const [minutes, setMinutes] = useState(0)
+
+  console.log(support)
+  console.log(minApproval)
+  console.log(days)
+  console.log(hours)
+  console.log(minutes)
 
   const handleSupport = e => {
     setSupport(e.target.value)
